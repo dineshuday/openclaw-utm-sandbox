@@ -1,11 +1,11 @@
-# 🦞 OpenClaw Sandbox: macOS + UTM + Kimi 2.5
+# 🦞 OpenClaw Sandbox: macOS + UTM + Kimi K2.5
 
-A secure, "blast-radius zero" implementation of the **OpenClaw** personal AI assistant. This setup isolates the autonomous agent within a **UTM Virtual Machine (macOS)** and bridges communication via **Telegram**, leveraging **Kimi 2.5** for high-reasoning agentic tasks.
+A secure, "blast-radius zero" implementation of the **OpenClaw** personal AI assistant. This setup isolates the autonomous agent within a **UTM Virtual Machine (macOS)** and bridges communication via **Telegram**, leveraging **Kimi K2.5** for high-reasoning agentic tasks.
 
 ## 🏗️ Architecture
 
 * **Orchestrator:** [OpenClaw](https://openclaw.ai/) (Local AI Gateway)
-* **The Brain:** **Kimi 2.5** (1T parameter model) via **Ollama Cloud**
+* **The Brain:** **Kimi K2.5** (1T parameter model) via **Ollama Cloud**
 * **The Sandbox:** **UTM** running a virtualized macOS instance
 * **Interface:** **Telegram Bot** for remote tasking and proactive updates
 
@@ -21,7 +21,7 @@ I followed the February 2026 [Ollama Integration Guide](https://ollama.com/blog/
     ```bash
     ollama launch openclaw --config
     ```
-    *Select **Kimi 2.5** as the model and **Telegram** as the messaging channel during setup.*
+    *Select **Kimi K2.5** as the model and **Telegram** as the messaging channel during setup.*
 
 ## 🛡️ Why a UTM Sandbox?
 
